@@ -1,4 +1,11 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bebas+Neue&display=swap');
+
+:root{
+    --fonte1: Verdana,Geneva,tahoma, sans-serif;
+    --fonte2:'Bacasime Antique', serif;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -6,11 +13,13 @@
 html,body{
     min-width: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte1);
 }
 header > h1 {
     padding-top: 50px;
@@ -23,10 +32,12 @@ a{
     color: rgb(173, 76, 76);
 }
 section{
+    font-family: var(--fonte2);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 1.3em;
 }
 section.normal{
     background-color: white;
@@ -45,4 +56,3 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
-}

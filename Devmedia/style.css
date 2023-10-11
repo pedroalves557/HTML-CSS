@@ -1,0 +1,13 @@
+body{
+    background-color: darksalmon;
+}
+p{
+height: auto;
+width: auto;
+background-color:rgb(230, 230, 240);
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-style: inset;
+}
